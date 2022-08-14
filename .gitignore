@@ -8,8 +8,10 @@ install_manifest.txt
 compile_commands.json
 CTestTestfile.cmake
 /.vs
+/.idea
 /build
 /out/build/x64-Debug
+/cmake-build-debug/
 /cmake-build-release/
 /src/Test/Config.h
 /CMakeSettings.json
