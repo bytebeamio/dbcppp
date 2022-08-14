@@ -2,7 +2,7 @@
 include(GNUInstallDirs)
 include(TestBigEndian)
 
-add_library(${PROJECT_NAME} SHARED "")
+add_library(${PROJECT_NAME} STATIC "")
 set_property(TARGET ${PROJECT_NAME} PROPERTY CXX_STANDARD 17)
 
 target_link_libraries(${PROJECT_NAME} ${Boost_LIBRARIES} ${LIBXML2_LIBRARIES} "libxmlmm")
